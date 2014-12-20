@@ -1,4 +1,5 @@
 CodeBook
+
 This is a code book that describes the variables, the data, and any transformations or work that are performed to 
 clean up the data.
 
@@ -8,9 +9,11 @@ The data source
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+
 ====================================================================================================================
 
 Data Set Information
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 
@@ -29,19 +32,32 @@ was used. From each window, a vector of features was obtained by calculating var
 The dataset includes the following files:
 
 1.README.txt'
+
 2.features_info.txt': Shows information about the variables used on the feature vector.
+
 3.features.txt': List of all features.
+
 4.activity_labels.txt': Links the class labels with their activity name.
+
 5.train/X_train.txt': Training set.
+
 6.train/y_train.txt': Training labels.
+
 7.test/X_test.txt': Test set.
+
 8.test/y_test.txt': Test labels.
 
+
 The following files are available for the train and test data. Their descriptions are equivalent.
+
 1.train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 2.train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+
 3.train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+
 4.train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 
 =================================================================================================================
 Transformation details
